@@ -1,5 +1,42 @@
-title: Md Shaad Mahmud
-logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+title: "Dr. Md Shaad Mahmud | Research Website"
+description: "Welcome to the personal website of Dr. Md Shaad Mahmud, Associate Professor at the University of New Hampshire, showcasing research projects, publications, and academic contributions."
+baseurl: "" # Leave empty unless deploying to a subdirectory
+url: "https://yourgithubusername.github.io" # Update with your GitHub Pages URL
+theme: minima
+
+# Author Information
+author:
+  name: "Dr. Md Shaad Mahmud"
+  email: "shaad.mahmud@unh.edu"
+  position: "Associate Professor"
+  institution: "University of New Hampshire"
+  bio: "Researcher in wearable sensor development, edge machine learning, and real-time health monitoring."
+  github: "yourgithubusername"
+  scholar: "https://scholar.google.com"
+
+# Navigation Links
+nav_links:
+  - title: "About Me"
+    url: "/about"
+  - title: "Research Projects"
+    url: "/projects"
+  - title: "Publications"
+    url: "/publications"
+  - title: "Contact"
+    url: "/contact"
+
+# Social Media Links
+social_links:
+  email: "shaad.mahmud@unh.edu"
+  github: "https://github.com/yourgithubusername"
+  linkedin: "https://linkedin.com/in/yourlinkedin"
+  scholar: "https://scholar.google.com"
+
+# Plugins (Optional for GitHub Pages)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Markdown Processing
+markdown: kramdown
+highlighter: rouge
